@@ -13,4 +13,4 @@ app.get("/work", (req, res) => {
     res.render("work", {activeNav: 'work'})
 })
 
-app.listen(port, () => console.log(`Example app listening on port ${port}!`))
+app.listen(port, () => console.log(`Server running on port ${port}!`))
