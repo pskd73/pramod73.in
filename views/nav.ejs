@@ -1,0 +1,33 @@
+<style>
+    nav ul {
+        list-style: none;
+        padding: 0px;
+        border-bottom: 1px solid #3282b8;
+    }
+
+    nav ul li {
+        display: inline-block;
+    }
+
+    nav ul li a {
+        display: inline-block;
+        width: 100px;
+        padding: 15px;
+    }
+
+    nav ul li.active {
+        background-color: #3282b8;
+    }
+
+</style>
+    
+<nav>
+    <ul>
+        <li class="<%= activeNav == 'about' ? 'active' : '' %>">
+            <a href="/" class="simple">About</a>
+        </li>
+        <li class="<%= activeNav == 'work' ? 'active' : '' %>">
+            <a href="/work" class="simple">Work</a>
+        </li>
+    </ul>
+</nav>

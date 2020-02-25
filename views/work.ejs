@@ -1,0 +1,28 @@
+<%- include('header'); -%>
+
+<style>
+    .work {
+        font-size: large;
+    }
+
+    .work a {
+        font-style: italic;
+    }
+
+    .work a:hover {
+        text-decoration: underline;
+    }
+</style>
+
+<div>
+    Here are some my writings
+    <ul class="work">
+        <li>
+            <a href="https://medium.com/@pramodkumar.damam73/if-hack-later-sucks-98231cb11a4b" class="simple" target="blank">
+                "If" hack: later sucks!
+            </a>
+        </li>
+    </ul>
+</div>
+
+<%- include('footer', {activeNav: activeNav}); -%>
