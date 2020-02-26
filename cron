@@ -1,0 +1,1 @@
+*/1 * * * * cd $HOME/pramod73.in && ./stats.sh
