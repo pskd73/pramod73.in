@@ -1,0 +1,1 @@
+ps -ef | grep node | awk '/node index.js/ {print $2}' | xargs kill -9
